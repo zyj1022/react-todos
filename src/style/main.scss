@@ -1,0 +1,58 @@
+//---------------------------------------------------
+// Created by kingzhi 2016-6-26
+//---------------------------------------------------
+body {
+	background: #f5f5f5;
+}
+header {
+	h1 {
+		text-align: center;
+		text-decoration: underline;
+	}
+}
+input {
+	margin-right: 10px;
+}
+.container {
+	width: 760px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	height: 0;
+	clear: both;
+}
+.zk-task {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+	box-shadow: 1px 1px 1px #ddd;
+}
+.zk-header {
+	.input {
+		width: 90%;
+		padding: 5px;
+		font-size: 24px;
+		border: none;
+	}
+	border-bottom: 3px solid #ddd;
+}
+.list-task {
+	list-style: none;
+	padding: 0;
+	li {
+		border-bottom: 1px solid #ddd;
+		padding: 10px;
+		font-size: 18px;
+		button {
+			font-size: 14px;
+		}
+	}
+	.input {float:left;}
+	.btn-del {float:right;}
+}
+.zk-footer {
+	margin-left: 10px;
+	.btn-clear {float:right;}
+}
